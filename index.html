@@ -7,13 +7,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" />
     <link rel="stylesheet" href="./css/styles.css" />
-    <style type="text/css"> 
-      a[href="./index.html"] 
-      {
-        color: rgb(33, 150, 243);
-      }
-    </style>
-    
   </head>
   <body>
     <!--*Header-->
@@ -21,7 +14,8 @@
       <nav class="navigation">
         <a class="link logo" href="./index.html" aria-label="логотип вэб-студии"> Web<span class="logo-header">Studio</span> </a>
         <ul class="list navigation-list">
-          <li><a class="link navigation-list-link" href="./index.html">Студия</a></li>
+          <!--!active-page-->
+          <li><a id="active-page" class="link navigation-list-link" href="./index.html">Студия</a></li>
           <li><a class="link navigation-list-link" href="./portfolio.html">Портфолио</a></li>
           <li><a class="link navigation-list-link" href="">Контакты</a></li>
         </ul>
@@ -37,7 +31,7 @@
     <main>
       <section class="hero">
         <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button class="btn" type="button">Заказать услугу</button>
+        <button type="button" class="btn">Заказать услугу</button>
       </section>
 
       <section class="benefits">
